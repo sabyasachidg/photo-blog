@@ -1,0 +1,38 @@
+img {
+    width: 30%;
+    margin: 1.6666%;
+    height: 40%;
+}
+
+nav {
+
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #f1f1f1;
+    margin-left: 1.6666%;
+    width: 30%;
+    padding: 20px 0;
+    font-size: 25px;
+
+}
+
+img:hover {
+    border-color: rgb(26, 231, 231);
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #31ced6;
+    transform: translateY(-1.0em);
+    cursor: pointer;
+    transition: all 1.0s;
+  }
+
+  nav:hover {
+
+    border-color: rgb(64, 67, 67);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0.5em 0.5em -0.4em #8594d7;
+    transform: translateY(-0.5em);
+    cursor: pointer;
+    transition: all 0.25s;
+
+  }
+
